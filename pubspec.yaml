@@ -1,0 +1,27 @@
+name: locally
+description: This package helps developers create local notification in flutter, it extends the flutter local notification package and tries to make usage more simple and user friendly.
+version: 1.0.5
+authors:
+  - samuelezedi@gmail.com
+  - micatovin@gmail.com
+homepage: https://github.com/samuelezedi/locally
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # timezone: ^0.7.0
+  timezone: ^0.8.0
+  # flutter_native_timezone: ^1.1.0
+  flutter_native_timezone: ^2.0.0
+  # flutter_local_notifications: ^6.0.0
+  flutter_local_notifications: ^9.5.3+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
